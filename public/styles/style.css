@@ -1,0 +1,87 @@
+/* structure */
+body{
+	font-family: Arial, helvetica, sans-serif, serif;
+	margin: 0 auto;
+	text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+main{
+	background-image: url("../images/cookies.jpg");
+	margin: 0;
+	
+}
+
+h1{
+	margin: 0 auto;
+}
+
+.button{
+	text-align: right;
+}
+
+/* header */
+header{
+	display: block;
+	background: #fff;
+	width: 500px;
+	height: 100px;
+	border: 1px black solid;
+	margin: 20px auto;
+}
+
+
+
+nav{
+	display: block;
+	background: #fff;
+	width: 500px;
+	height: 50px;
+	border: 1px black solid;
+	margin: 20px auto;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+/* div */
+.cube1{
+	display: block;
+	width: 500px;
+	min-height: 500px;
+	border: 1px black solid;
+	margin: 20px auto;
+	padding: 30px 10px;
+	background: #fff;
+}
+
+.cube2{
+	border: 1px black solid;
+	width: 300px;
+	margin: 0 auto;
+	background: linear-gradient(30deg, #E7FF31, #48FF31);
+}	
+
+.center{
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	padding: 0px 50px;
+}
+
+/* footer */
+footer{
+	display: block;
+	background: #fff;
+	width: 500px;
+	height: 100px;
+	border: 1px black solid;
+	margin: 20px auto;
+}
